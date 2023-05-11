@@ -13,16 +13,18 @@ class ViewController: UIViewController {
     
     var orange = 1
     
-    var sum = 0
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-    
-
+    func addApplesNOraneges (amountOfApples: Int, amountOfOranges: Int)-> Int {
+        
+        var sum = (apple * amountOfApples) + (orange * amountOfOranges)
+        
+        return sum
+        
+    }
     
     
 }
